@@ -1,0 +1,29 @@
+{
+  "name": "file-metadata",
+  "version": "1.0.0",
+  "description": "receive the size of the an uploaded file",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "6.11.1",
+    "npm": "5.2.0"
+  },
+  "keywords": [
+    "nodejs",
+    "urlencoded",
+    "file",
+    "size",
+    "api",
+    "micro",
+    "service"
+  ],
+  "author": "AdelMahjoub",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}

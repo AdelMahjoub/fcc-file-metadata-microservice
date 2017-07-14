@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>File meta data</title>
+</head>
+<style>
+  .container {
+    padding: 50px;
+    width: 960px;
+    margin: 0 auto;
+  }
+  .title {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+</style>
+<body>
+  <div class="container">
+    <h1 class="title">File Meta Data microservice</h1>
+    <br>
+    <p>
+       Upload a file and receive the file size in bytes within the JSON response.
+    </p>
+    <hr>
+    <br><br>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+      <label for="file">Upload a file</label>
+      <br><br>
+      <input type="file" name="fileUploaded">
+      <br><br>
+      <button type="Submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
